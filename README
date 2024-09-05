@@ -1,1 +1,34 @@
 These Nodes written by Python for F1Tenth Autonomous Racing Cars Labs
+
+
+Run commands:
+
+Emergency Breaking:
+
+    ros2 run safety_node2 safety_node
+
+
+Wall Following:
+
+    ros2 run wall_follow wall_follow
+
+
+Gap Followig:
+
+    ros2 run reactive reactive
+
+
+Adding Waypoint in to the csv.file:
+
+    ros2 run pure_pursuit waypoint_node
+
+
+Publishing waypoints for visualization with Marker: ** Do not forget to adjust pathway **
+
+    ros2 run markers_publisher markers_publisher
+
+
+Pure Pursuit:
+
+    ros2 run pure_pursuit1 pure_pursuit1
+
